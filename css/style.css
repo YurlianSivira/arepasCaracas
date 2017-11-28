@@ -336,6 +336,9 @@ footer{
     width: 100%;
     height: 20px;
     margin: 0px;
+    position: relative;
+    float: left;
+    z-index: 1;
 }
 
 ul a{
@@ -438,7 +441,7 @@ ul a{
 	line-height: 1.4;
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-top: 5px;s
+	margin-top: 5px;
 }
 
 .fotos{
@@ -452,13 +455,105 @@ ul a{
     margin-top: 8px;
     margin-left: 5%;
     margin-right: 5%;
-
+    text-align: center;
 }
 
 .fotos img{
 	width: 90px;
 	margin-top: 10px;
-	
+}
+
+
+/*BEBIDAS*/
+
+.section_bebida{
+	width: 100%;
+	height: 750px;
+	position: relative;
+}
+
+.fotosbebidas img{
+	width: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+
+.descripcion_bebida{
+	width: 57%;
+    height: 480px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 15px;
+    background-color: #ffc71f;
+    border-radius: 25px;
+	box-shadow: 0px 0px 14px #000000;
+	border: 0px solid #000000;
+	padding: 5px;
+	text-align: center;
+}
+
+/*CACHITOS*/
+.art_cachito{
+	width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px;
+}
+
+.pedido_cachitos{
+	width: 90%;
+	height: 70px;
+	float: left;
+	text-align: center;
+	line-height: 1.6;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 15px;
+}
+
+
+.fotoscachito img{
+	width: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+    margin-top: 3px;
+}
+
+/*EMPANADAS ARGENTINAS*/
+.fotos_emp_arg img{
+	width: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+    margin-top: 9px;
+}
+
+/*EMPANADAS VENEZOLANAS*/
+.fotos_emp_ven img{
+	width: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+    margin-top: 9px;
+}
+
+/*PABELLON*/
+.fotos_pabellon img{
+	width: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+    margin-top: 6px;
+}
+
+/*TEQUEÑOS*/
+.art img{
+	width: 95%;
+	margin-top: 20px;
+}
+
+.fotos_tequenos img{
+	width: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+    margin-top: 13px;
 }
 
 

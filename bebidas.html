@@ -30,7 +30,7 @@
 					<h2>Bienvenido.... $usuario</h2>
 					<ul class="barra">
 						<div class="icon">
-							<li><a href="#"><img src="images/sal.png"></a></li>
+							<li><a href="index.html"><img src="images/sal.png"></a></li>
 							<li><a href="#"><img src="images/confi.png"></a></li>
 							<li><a href="#"><img src="images/carrito.png"></a></li>
 						</div>
@@ -42,7 +42,7 @@
 
 
 	<body>
-		<section class="section_b">
+		<section class="section_bebida">
 		<nav>
 			<div class="prod">
 					<div class="menu_pro">
@@ -72,7 +72,7 @@
 			</div>
 		</nav>
 		
-		<aside class="descripcion">
+		<aside class="descripcion_bebida">
 			<div class="art">
 				<h3>Bebidas</h3>
 				<p>Contamos con una amplia variedad de bebidas entre ellas tenemos: jugos, chica de arroz, cervezas, gaseosas  </p>
@@ -80,35 +80,60 @@
 
 			<div class="pedido">
 			<form action="" method="post">
-					<label>Tipo</label>
-						<select name="tipo">
+					<label>Cervezas</label>
+						<br>
+						<select name="cervezas">
 							<option value="1">Seleccione</option>
-							<option value="2">Gaseosa</option>
-							<option value="3">Cerveza</option>
-							<option value="4">Jugo</option>	
+							<option value="2">Brahma</option>
+							<option value="3">Quilmes</option>
+							<option value="4">Stella Artois</option>	
 						</select>
 						<br>
 
-						<label>Tamaño</label>
-						<select name="tamano">
+					<label>Tamaño</label>
+						<br>
+						<select name="tamano_cerveza">
+							<option value="1">Seleccione</option>
+							<option value="2">Lata</option>
+							<option value="3">Litro</option>		
+						</select>
+						<br>
+
+					<label>Gaseosas</label>
+						<br>
+						<select name="gaseosas">
+							<option value="1">Seleccione</option>
+							<option value="2">Coca-cola</option>
+							<option value="3">Fanta</option>
+							<option value="4">Sprite</option>	
+						</select>
+						<br>
+
+					<label>Tamaño</label>
+						<br>
+						<select name="tamano_gaseosa">
+							<option value="1">Seleccione</option>
+							<option value="2">Lata</option>
+							<option value="3">2 Litros</option>		
+						</select>
+						<br>
+					
+					<label>Jugos</label>
+						<br>
+						<select name="jugos">
+							<option value="1">Seleccione</option>
+							<option value="2">Durazno</option>
+							<option value="3">Manzana</option>
+							<option value="4">Multifruta</option>
+							<option value="5">Naranja</option>	
+						</select>
+						<br>
+
+					<label>Tamaño</label>
+						<select name="tamano_jugos">
 							<option value="1">Seleccione</option>
 							<option value="2">Litro</option>
-							<option value="3">Litro y medio</option>
-							<option value="4">Dos litros</option>			
-						</select>
-						<br>
-
-						<label>Relleno 2</label>
-						<select name="relleno2">
-							<option value="1">Seleccione</option>
-							<option value="2">Carne</option>
-							<option value="3">Pollo</option>
-							<option value="4">Jamón</option>
-							<option value="5">Queso amarillo</option>
-							<option value="6">Salchicha</option>
-							<option value="7">Queso fresco</option>
-							<option value="8">Chorizo</option>
-							<option value="9">Porotos</option>							
+							<option value="3">2 Litros</option>		
 						</select>
 						<br>
 						<label>Cantidad</label>
@@ -129,11 +154,13 @@
 			</div>
 		</aside>
 
-		<section class="fotos">
-			<img src="images/mixta.png">	
-			<img src="images/pollo.png">
-			<img src="images/carne.png">
+		<div class="fotos">
+		<section class="fotosbebidas">
+			<img src="images/baggio.jpg">	
+			<img src="images/quilmes.png">
+			<img src="images/stella.jpg">
 		</section>
+	</div>
 
 	</section>
 
